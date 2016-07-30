@@ -10,6 +10,7 @@ var count = 1;
 for (var j = 0; j < arr.length; j++) { //ищём имя пользователя в массива, если есть то прибавляем 1
 	if (username == arr[j]) {
 		count += 1;
+		break;
 	} 
 }
 
